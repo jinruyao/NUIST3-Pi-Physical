@@ -1,3 +1,6 @@
+# Author: Jinru Yao
+# Date: 2/4/2025/
+
 # NUIST Quiz Game in Python
 def quiz():
 	print ("Welcome to the Animal Quiz!")
@@ -10,15 +13,15 @@ def quiz():
 		"3. What is the only mammal capble of flight?: a. Bat, b. Squirrel, c.Dolphin "
 	]
 	answers = [
-		"Blue whale",
-		"Hummingbird",
+		"Blue whale"
+		"Hummingbird"
 		"Bat"
 	]
 	score = 0
 
 # Ask questions
 	for i in range(len(questions)):
-		user_answer =  input(questions[i]).strip()
+		user_answer =  input(questions[i]).strip().lower()
 		if user_answer == answers[i]:
 			print ("Correct!")
 			score += 1
