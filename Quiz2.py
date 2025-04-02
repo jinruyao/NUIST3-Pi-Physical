@@ -1,5 +1,5 @@
 # Author: Jinru Yao
-# Date: 2/4/2025
+# Date: 2/4/2025/
 
 import RPi.GPIO as GPIO
 import time
